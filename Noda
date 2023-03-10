@@ -1,0 +1,6 @@
+# 1. Установка Node.js
+curl -fsSL https://deb.nodesource.com/setup_lts.x | sudo -E bash -
+sudo apt-get install -y nodejs
+
+# 2. Установка пакета @ceramicnetwork/cli
+npm install --global @ceramicnetwork/cli
